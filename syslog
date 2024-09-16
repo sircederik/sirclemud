@@ -1,0 +1,96 @@
+autorun starting game lun 16 sep 2024 13:00:02 CST
+running bin/circle -q 4000
+Sep 16 13:00:02 :: CircleMUD, version 3.1
+Sep 16 13:00:02 :: Using lib as data directory.
+Sep 16 13:00:02 :: Running game on port 4000.
+Sep 16 13:00:02 :: Finding player limit.
+Sep 16 13:00:02 ::    Setting player limit to 300 using rlimit.
+Sep 16 13:00:02 :: Opening mother connection.
+Sep 16 13:00:02 :: Binding to all IP interfaces on this host.
+Sep 16 13:00:02 :: Boot db -- BEGIN.
+Sep 16 13:00:02 :: Resetting the game time:
+Sep 16 13:00:02 ::    Current Gametime: 19H 5D 14M 1004Y.
+Sep 16 13:00:02 :: Reading news, credits, help, bground, info & motds.
+Sep 16 13:00:02 :: Loading spell definitions.
+Sep 16 13:00:02 :: Loading zone table.
+Sep 16 13:00:02 ::    30 zones, 1200 bytes.
+Sep 16 13:00:02 :: Loading rooms.
+Sep 16 13:00:02 ::    1880 rooms, 210560 bytes.
+Sep 16 13:00:02 :: Renumbering rooms.
+Sep 16 13:00:02 :: Checking start rooms.
+Sep 16 13:00:02 :: Loading mobs and generating index.
+Sep 16 13:00:02 ::    569 mobs, 9104 bytes in index, 268568 bytes in prototypes.
+Sep 16 13:00:02 :: Loading objs and generating index.
+Sep 16 13:00:02 ::    679 objs, 10864 bytes in index, 119504 bytes in prototypes.
+Sep 16 13:00:02 :: Renumbering zone table.
+Sep 16 13:00:02 :: Loading shops.
+Sep 16 13:00:02 :: Loading help entries.
+Sep 16 13:00:02 ::    298 entries, 7152 bytes.
+Sep 16 13:00:02 :: Generating player index.
+Sep 16 13:00:02 :: Loading fight messages.
+Sep 16 13:00:02 :: Loading social messages.
+Sep 16 13:00:02 :: SYSERR: Unknown social 'accuse' in social file.
+Sep 16 13:00:02 :: SYSERR: Unknown social 'cry' in social file.
+Sep 16 13:00:02 :: SYSERR: Unknown social 'dance' in social file.
+Sep 16 13:00:02 :: SYSERR: Unknown social 'hug' in social file.
+Sep 16 13:00:02 :: SYSERR: Unknown social 'kiss' in social file.
+Sep 16 13:00:02 :: SYSERR: Unknown social 'love' in social file.
+Sep 16 13:00:02 :: SYSERR: Unknown social 'massage' in social file.
+Sep 16 13:00:02 :: SYSERR: Unknown social 'shake' in social file.
+Sep 16 13:00:02 :: SYSERR: Unknown social 'snowball' in social file.
+Sep 16 13:00:02 :: Assigning function pointers:
+Sep 16 13:00:02 ::    Mobiles.
+Sep 16 13:00:02 ::    Shopkeepers.
+Sep 16 13:00:02 ::    Objects.
+Sep 16 13:00:02 ::    Rooms.
+Sep 16 13:00:02 :: Assigning spell and skill levels.
+Sep 16 13:00:02 :: Sorting command list and spells.
+Sep 16 13:00:02 :: Booting mail system.
+Sep 16 13:00:02 ::    0 bytes read.
+Sep 16 13:00:02 ::    Mail file read -- 0 messages.
+Sep 16 13:00:02 :: Reading banned site and invalid-name list.
+Sep 16 13:00:02 ::    Ban file 'etc/badsites' doesn't exist.
+Sep 16 13:00:02 :: Booting houses.
+Sep 16 13:00:02 :: Resetting #0: Limbo - Internal (rooms 0-99).
+Sep 16 13:00:02 :: Resetting #9: River Island Of Minos (rooms 900-999).
+Sep 16 13:00:02 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep 16 13:00:02 :: Resetting #15: The Straight Path (rooms 1500-1599).
+Sep 16 13:00:02 :: Resetting #25: The High Tower Of Magic (rooms 2500-2699).
+Sep 16 13:00:02 :: Resetting #30: Northern Midgaard Main City (rooms 3000-3099).
+Sep 16 13:00:02 :: Resetting #31: Southern part of Midgaard (rooms 3100-3299).
+Sep 16 13:00:02 :: Resetting #33: The Three Of Swords (rooms 3300-3399).
+Sep 16 13:00:02 :: Resetting #35: Miden'Nir (rooms 3500-3599).
+Sep 16 13:00:02 :: Resetting #36: The Chessboard of Midgaard (rooms 3600-3699).
+Sep 16 13:00:02 :: Resetting #40: Mines of Moria (rooms 4000-4198).
+Sep 16 13:00:02 :: Resetting #50: The Great Eastern Desert (rooms 5000-5099).
+Sep 16 13:00:02 :: Resetting #51: Drow City (rooms 5100-5199).
+Sep 16 13:00:02 :: Resetting #52: The City Of Thalos (rooms 5200-5299).
+Sep 16 13:00:02 :: Resetting #53: The Great Pyramid (rooms 5300-5399).
+Sep 16 13:00:02 :: Resetting #54: New Thalos (rooms 5400-5699).
+Sep 16 13:00:02 :: Resetting #60: Haon-Dor, Light Forest (rooms 6000-6099).
+Sep 16 13:00:02 :: Resetting #61: Haon-Dor, Dark Forest (rooms 6100-6199).
+Sep 16 13:00:02 :: Resetting #62: The Orc Enclave (rooms 6200-6299).
+Sep 16 13:00:02 :: Resetting #63: Arachnos (rooms 6300-6399).
+Sep 16 13:00:02 :: Resetting #64: Rand's Tower (rooms 6400-6499).
+Sep 16 13:00:02 :: Resetting #65: The Dwarven Kingdom (rooms 6500-6599).
+Sep 16 13:00:02 :: Resetting #70: The Sewer, First Level (rooms 7000-7099).
+Sep 16 13:00:02 :: Resetting #71: The Second Sewer (rooms 7100-7199).
+Sep 16 13:00:02 :: Resetting #72: The Sewer Maze (rooms 7200-7299).
+Sep 16 13:00:02 :: Resetting #73: The Tunnels In The Sewer (rooms 7300-7399).
+Sep 16 13:00:02 :: Resetting #79: Redferne's Residence (rooms 7900-7999).
+Sep 16 13:00:02 :: Resetting #120: Rome (rooms 12000-12099).
+Sep 16 13:00:02 :: Resetting #150: King Welmar's Castle (rooms 15000-15099).
+Sep 16 13:00:02 :: Resetting #186: Newbie Zone (rooms 18600-18699).
+Sep 16 13:00:02 :: Boot db -- DONE.
+Sep 16 13:00:02 :: Signal trapping.
+Sep 16 13:00:02 :: Entering game loop.
+Sep 16 13:00:02 :: No connections.  Going to sleep.
+Sep 16 13:00:07 :: New connection.  Waking up.
+Sep 16 13:00:22 :: Sir [localhost] new player.
+Sep 16 13:00:27 :: Sir entering game with no equipment.
+Sep 16 13:01:23 :: Sir has quit the game.
+Sep 16 13:01:25 :: Losing player: Sir.
+Sep 16 13:01:25 :: No connections.  Going to sleep.
+Sep 16 13:01:27 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
