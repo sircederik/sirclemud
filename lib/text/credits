@@ -1,26 +1,31 @@
 (lib/text/credits)
 
+                      S I R C L E M U D  0 . 0 . 1
+Está basado enteramente en CircleMUD 3.0, es un port traducido al español latinoamericano
+con algunas adiciones y revisiones al código. Desarrollo de zonas nuevas y algunas actualizaciones
+
+[2024.09.08] Cederik de León                  [sir] (cederik.de.leon@umich.mx)
+
+
                     C  I  R  C  L  E  M  U  D     3  .  0
 
 
-CircleMUD was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
-Johns Hopkins University's Department of Computer Science.  All code unique
-to CircleMUD is protected under a copyright by the Trustees of the Johns
-Hopkins University.  Additional development coordinated by Alex Fletcher,
-George Greer, and Daniel Koepke with feedback from CircleMUD mailing list.
+CircleMUD fue desarrollado a partir de DikuMUD (Gamma 0.0) por Jeremy "Ras" Elson en
+Departamento de Ciencias de la Computación de la Universidad Johns Hopkins.  Todo el código único
+a CircleMUD está protegido bajo derechos de autor por los Fideicomisarios de Johns
+Universidad Hopkins.  Desarrollo adicional coordinado por Alex Fletcher,
+George Greer y Daniel Koepke con comentarios de la lista de correo de CircleMUD.
 
-CircleMUD is freeware and can be downloaded via anonymous FTP from
-ftp.circlemud.org or ftp2.circlemud.org in pub/CircleMUD.  Its developers
-can be contacted at cdev@circlemud.org.
+CircleMUD es un software gratuito y se puede descargar mediante FTP anónimo desde
+ftp.circlemud.org o ftp2.circlemud.org en pub/CircleMUD.  Sus desarrolladores
+Puede ser contactado en cdev@circlemud.org.
 
-Type HELP CIRCLEMUD for more information.
-
+Escriba AYUDA CIRCLEMUD para obtener más información.
 ============================================================================
 
 
-
-                   Original game idea, concept, and design:
-
+               Idea, concepto y diseño originales del juego:
+   
           Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
           Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
           Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
@@ -28,8 +33,8 @@ Type HELP CIRCLEMUD for more information.
           Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
 
 ------------------------------------------------------------------------------
-Additional contributions from Michael Curran, Bill Wisner, Mads Haar, and
-Stephan Dahl.
+Contribuciones adicionales de Michael Curran, Bill Wisner, Mads Haar y
+Esteban Dahl.
 
-Originally developed at:
-  DIKU - The Department of Computer Science at the University of Copenhagen.
+Desarrollado originalmente en:
+  DIKU: Departamento de Ciencias de la Computación de la Universidad de Copenhague.

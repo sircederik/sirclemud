@@ -1,21 +1,21 @@
 -------------------------------------------------------------------------------
-Movement:                          | Communication:
-NORTH SOUTH EAST WEST UP DOWN      | SAY GSAY SHOUT HOLLER TELL ASK WHISPER
-LOOK EXITS ENTER LEAVE             | MAIL RECEIVE CHECK GOSSIP GRATS AUCTION
-SLEEP WAKE REST SIT STAND          | NOTELL NOSHOUT NOGOSSIP NOGRATS NOAUCTION
-(LOCK UNLOCK OPEN CLOSE)           |
+Movimiento:                                | Comunicación:
+NORTE SUR ESTE OESTE ARRIBA ABAJO          | DECIR GSAY CALLAR GRITAR CONTAR PREGUNTAR SUSURRAR
+MIRAR SALIDAS ENTRAR SALIR                 | CORREO RECIBIR REVISAR CHIMEAR GRATS ACCION
+DORMIR DESPERTAR DESCANSAR SENTAR PARAR    | NOCONTAR NOCALLAR NOGOSSIP NOGRATS NOACCION
+(BLOQUEAR DESBLOQUEAR ABRIR CERRAR)        |
 -------------------------------------------------------------------------------
-Objects:                           | Information: 
-GET DROP JUNK DONATE PUT GIVE WEAR | SCORE HELP INFO WHO NEWS TIME WEATHER
-GRAB INVENTORY EQUIPMENT REMOVE    | WHERE CONSIDER LEVELS WIZLIST IMMLIST
-EXAMINE EAT DRINK TASTE SIP POUR   | CREDITS TOGGLE FLAGS WIZHELP
+Objetis:                                   | Información: 
+TOMAR SOLTAR BASURA DONAR PONER DAR VESTIR | SCORE AYUDA INFO QUIEN NOTICIAS TIEMPO CLIMA
+AGARRAR INVENTARIO EQUIPAR REMOVER         | DONDE CONSIDERAR NIVELES WIZLIST IMMLIST
+EXAMINAR COMER BEBER PROBAR SORBER VERTIR  | CREDITOS ALTERNAR FLAGS WIZHELP
 -------------------------------------------------------------------------------
-Combat:                            | Utility:
-KILL WIELD FLEE ASSIST TRACK       | ! BUG IDEA TYPO QUIT SAVE BRIEF COMPACT
-(KICK BASH RESCUE BACKSTAB CAST)   | TITLE NOSUMMON COMMANDS SOCIALS DISPLAY
+Combate:                                   | Utilidad:
+MATAR BLANDIR HUIR ASISTIR RASTREAR        | ! BUG IDEA TYPO QUITAR SALVAR SUMARIO COMPACTAR
+(PATEAR INTENTAR RESCATAR BACKSTAB CAST)   | TITULO NOINVOCAR COMANDOS SOCIALS DISPLAY
 -------------------------------------------------------------------------------
-Further information available by HELP <keyword>, keyword being a command or 
-(for example) one of the following:
+Mayor información disponible tecleando AYUDA <palabra>, la palabra puede ser un comando 
+o (por ejemplo) alguno de los siguientes:
 
-   SOCIAL SHOPS INNS CLERIC WARRIOR THIEF MAGIC SPELLS LINK
+   SOCIAL TIENDAS INNS CLERIGO GUERRERO LADRON MAGIA HECHIZO AMARRE
 -------------------------------------------------------------------------------

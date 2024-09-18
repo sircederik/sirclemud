@@ -1,18 +1,16 @@
-(lib/text/imotd)
+¡Bienvenido a CircleMUD 3.1, tan esperado, a menudo retrasado y altamente calificado!
 
-Welcome to the long-awaited, oft-belated, highly-rated CircleMUD 3.1!
+Este es el MOTD inmortal -- el archivo que los inmortales verán cuando inicien 
+sesión :en el juego. Deberías cambiarlo a algo más interesante cuando tengas la 
+oportunidad (así como la mayoría de los otros archivos en lib/text).
 
-This is the immortal MOTD -- the file that immortals will see when they
-log in to the game.  You should change it to something more interesting
-when you get a chance (as well as most of the other files in lib/text.)
+Si necesitas ayuda con CircleMUD, por favor escribe a help@circlemud.org
 
-If you need help with CircleMUD, please write to help@circlemud.org
+Si deseas reportar un error, por favor escribe a bugs@circlemud.org
 
-If you would like to report a bug, please write to bugs@circlemud.org
-
-For all other general discussion, you might want to join the CircleMUD
-Mailing List.  If you wish to subscribe to the mailing list, send mail
-to <listserv@post.queensu.ca> with:
-   subscribe circle <first name> <last name>
-in the body of the message.
+Para todas las demás discusiones generales, quizás quieras unirte a la
+ Lista de Correo de CircleMUD. Si deseas suscribirte a la lista de correo, 
+envía un correo a <listserv@post.queensu.ca> con:
+subscribe circle <nombre> <apellido>
+en el cuerpo del mensaje.
 

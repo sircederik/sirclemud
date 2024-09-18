@@ -1,63 +1,63 @@
 (lib/text/news)
 
-			    THE CIRCLEMUD HERALD
-   		 "We addict players for their own enjoyment."
-			     September 19, 1993
+			    El Heraldo de SirCleMUD
+   		 "Adictos a los jugadores para su propio disfrute".
+			     19 de septiembre de 1993
 
 
-NEW COMMANDS AND NEW MUD BEHAVIOR:
----------------------------------
+NUEVOS COMANDOS Y NUEVO COMPORTAMIENTO DEL MUD:
+-----------------------------------------------
 
-**  Your character no longer gains move points with age.  However, age
-    does still affect your HMV gains.  Also, move point modifier objects
-    now work correctly.
+** Tu personaje ya no gana puntos de movimiento con la edad. Sin embargo, la edad
+   todavía afecta sus ganancias de HMV.  Además, mueva objetos modificadores de puntos.
+   ahora funciona correctamente.
 
-**  You can now use "all" and "all.x" very generally with the get, put,
-    drop, junk, donate, give, wear and remove commands.  Type HELP GET
-    for more info.
+** Ahora puedes usar "todo" y "todo.x" de manera muy general con las funciones tomar, poner,
+   soltar, desechar, donar, dar, usar y quitar.  Escriba AYUDA PARA OBTENER
+   para más información.
 
-**  The "track" function will show you the first step on the shortest
-    path to anyone in the game.
+** La función "pista" le mostrará el primer paso en el camino más corto
+   camino a cualquiera en el juego.
 
-**  If you drop your link for more than 1 hour, you will be force-rented
-    at 25% greater than normal rent prices.  If you don't have enough
-    money to rent with, your most valuable items will be junked until
-    the money you have can cover your items.
+** Si sueltas tu enlace durante más de 1 hora, serás alquilado por la fuerza.
+   a un 25% más que los precios de alquiler normales. Si no tienes suficiente
+   dinero para alquilar, tus artículos más valiosos serán desechados hasta
+   el dinero que tienes puede cubrir tus artículos.
 
-**  You can now remove your own messages from the board.  Also, if you
-    put someone else's name in parentheses in the message header, they
-    will be able to remove the message too.
+** Ahora puedes eliminar tus propios mensajes del tablero.  Además, si usted
+   Si pone el nombre de otra persona entre paréntesis en el encabezado del mensaje,
+   También podrás eliminar el mensaje.
 
-**  The MIDGAARD MAIL SYSTEM is now complete.  The Post Office is north
-    of the entrance to the Grunting Boar inn.  Stamps cost 150 coins.
+** El SISTEMA DE CORREO MIDGAARD ​​ya está completo.  La oficina de correos está al norte.
+   de la entrada a la posada Grunting Boar. Los sellos cuestan 150 monedas.
 
-**  Fountains have now been implemented.  You can drink from fountains
-    or fill containers from fountains using the FILL command.
+** Ya se han implementado fuentes.  Puedes beber de las fuentes.
+   o llene contenedores de fuentes usando el comando FILL.
 
-**  The SHOUT command, as always, only reaches people in your zone (you
-    can see who these people are by typing WHERE).  The HOLLER command
-    reaches everyone in the game but costs 10 movement points.
+** El comando GRITA, como siempre, sólo llega a las personas de tu zona (tú
+   Puedes ver quiénes son estas personas escribiendo DÓNDE). El comando HOLLER
+   llega a todos en el juego pero cuesta 10 puntos de movimiento.
 
-**  When you are writing a message, you will now not be interrupted
-    by tells, shouts, emotes, socials, and even people talking in the
-    same room.
+** Cuando estés escribiendo un mensaje, ahora no serás interrumpido
+   mediante avisos, gritos, gestos, redes sociales e incluso personas hablando en el
+   misma habitación.
 
-**  The WIMPY command has been upgraded so you can set at how many hit
-    points you flee.  Type HELP WIMPY for more info.
+** El comando WIMPY se ha actualizado para que puedas establecer cuántos golpes
+   puntos de los que huyes.  Escriba AYUDA A WIMPY para obtener más información.
 
 *****************************************************************************
-    IF YOU LEAVE THE GAME FOR MORE THAN AN HOUR, either by renting or plain
-    quitting, your hit points, move points, and mana will be fully restored
-    when you come back!  This doesn't work if you're poisoned.
+    SI DEJAS EL JUEGO POR MÁS DE UNA HORA, ya sea alquilando o simplemente saliendo
+    tus puntos de vida, puntos de movimiento y maná se restaurarán por completo. 
+    cuando vuelvas! Esto no funciona si estás envenenado.
 *****************************************************************************
 
-**  Use the ASSIST command to engage in mortal combat with someone in the
-    room who is getting pummeled.
+** Utilice el comando ASISTIR para participar en el combate
+    habitación quién está siendo golpeado.
 
-**  Use the SPLIT command to split gold among the members of your group
-    (including yourself) who are in the room.  i.e. If you are in a group
-    with 4 other people who are in the room with you, type "SPLIT 100"
-    to give each of them 20 coins.
+** Utilice el comando DIVIDIR para dividir el oro entre los miembros del grupo
+   (incluido usted mismo) que están en la sala.  es decir, si estás en un grupo
+   con otras 4 personas que están en la habitación contigo, teclear "DIVIDIR 100"
+   para darles 20 monedas a cada uno.
 
-**  You can use the VISIBLE command to break a spell of invisibility before
-    it expires.
+** Puedes usar el comando VISIBLE para romper el hechizo de invisibilidad
+   
