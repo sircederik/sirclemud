@@ -717,37 +717,37 @@ SPECIAL(bank)
 
   if (CMD_IS("balance")) {
     if (GET_BANK_GOLD(ch) > 0)
-      send_to_char(ch, "Your current balance is %d coins.\r\n", GET_BANK_GOLD(ch));
+      send_to_char(ch, "Tu saldo actual es de %d moneditas.\r\n", GET_BANK_GOLD(ch));
     else
-      send_to_char(ch, "You currently have no money deposited.\r\n");
+      send_to_char(ch, "Actualmente no tienes dinero depositado.\r\n");
     return (TRUE);
-  } else if (CMD_IS("deposit")) {
+  } else if (CMD_IS("depositar")) {
     if ((amount = atoi(argument)) <= 0) {
-      send_to_char(ch, "How much do you want to deposit?\r\n");
+      send_to_char(ch, "Que tanto quieres depositar.\r\n");
       return (TRUE);
     }
     if (GET_GOLD(ch) < amount) {
-      send_to_char(ch, "You don't have that many coins!\r\n");
+      send_to_char(ch, "No tienes tantas moneditas!\r\n");
       return (TRUE);
     }
     GET_GOLD(ch) -= amount;
     GET_BANK_GOLD(ch) += amount;
-    send_to_char(ch, "You deposit %d coins.\r\n", amount);
-    act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
+    send_to_char(ch, "Depositaste %d moneditas.\r\n", amount);
+    act("$n realiza una transacción bancaria.", TRUE, ch, 0, FALSE, TO_ROOM);
     return (TRUE);
-  } else if (CMD_IS("withdraw")) {
+  } else if (CMD_IS("retirar")) {
     if ((amount = atoi(argument)) <= 0) {
-      send_to_char(ch, "How much do you want to withdraw?\r\n");
+      send_to_char(ch, "Que tanto quieres retirar?\r\n");
       return (TRUE);
     }
     if (GET_BANK_GOLD(ch) < amount) {
-      send_to_char(ch, "You don't have that many coins deposited!\r\n");
+      send_to_char(ch, "No tienes tantas moneditas depositadas!\r\n");
       return (TRUE);
     }
     GET_GOLD(ch) += amount;
     GET_BANK_GOLD(ch) -= amount;
-    send_to_char(ch, "You withdraw %d coins.\r\n", amount);
-    act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
+    send_to_char(ch, "Retiras %d moneditas.\r\n", amount);
+    act("$n realiza una transacción bancaria.", TRUE, ch, 0, FALSE, TO_ROOM);
     return (TRUE);
   } else
     return (FALSE);
