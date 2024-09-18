@@ -26,12 +26,12 @@ cpp_extern const char *circlemud_version =
 /* cardinal directions */
 const char *dirs[] =
 {
-  "north",
-  "east",
-  "south",
-  "west",
-  "up",
-  "down",
+  "norte",
+  "este",
+  "sur",
+  "oeste",
+  "arriba",
+  "abajo",
   "\n"
 };
 
@@ -70,16 +70,16 @@ const char *exit_bits[] = {
 
 /* SECT_ */
 const char *sector_types[] = {
-  "Inside",
-  "City",
-  "Field",
-  "Forest",
-  "Hills",
-  "Mountains",
-  "Water (Swim)",
-  "Water (No Swim)",
-  "In Flight",
-  "Underwater",
+  "Dentro",
+  "Ciudad",
+  "Campos",
+  "Bosques",
+  "Colinas",
+  "Montañas",
+  "Aguas (nadables)",
+  "Aguas (No Nadables)",
+  "En vuelo",
+  "Submarino",
   "\n"
 };
 
@@ -91,23 +91,24 @@ const char *sector_types[] = {
 const char *genders[] =
 {
   "neutral",
-  "male",
-  "female",
+  "masculino",
+  "femenino",
+  /*pongamos a los nobinarios*/
   "\n"
 };
 
 
 /* POS_x */
 const char *position_types[] = {
-  "Dead",
-  "Mortally wounded",
-  "Incapacitated",
-  "Stunned",
-  "Sleeping",
-  "Resting",
-  "Sitting",
-  "Fighting",
-  "Standing",
+  "Muerto",
+  "Mortalmente herido",
+  "Incapacitado",
+  "Aturdido",
+  "Durmiendo",
+  "Descansando",
+  "Sentado",
+  "Peleando",
+  "De pie",
   "\n"
 };
 
@@ -219,8 +220,8 @@ const char *affected_bits[] =
 
 /* CON_x */
 const char *connected_types[] = {
-  "Playing",
-  "Disconnecting",
+  "Jugando",
+  "Desconentado",
   "Get name",
   "Confirm name",
   "Get password",
@@ -409,22 +410,22 @@ const char *container_bits[] = {
 /* LIQ_x */
 const char *drinks[] =
 {
-  "water",
-  "beer",
-  "wine",
+  "agua",
+  "cerveza",
+  "vino",
   "ale",
   "dark ale",
   "whisky",
-  "lemonade",
+  "limonada",
   "firebreather",
   "local speciality",
   "slime mold juice",
-  "milk",
-  "tea",
-  "coffee",
-  "blood",
-  "salt water",
-  "clear water",
+  "leche",
+  "te",
+  "café",
+  "sangre",
+  "agua salada",
+  "agua cristalina",
   "\n"
 };
 
@@ -444,8 +445,8 @@ const char *drinknames[] =
   "lemonade",
   "firebreather",
   "local",
-  "juice",
-  "milk",
+  "jugo",
+  "leche",
   "tea",
   "coffee",
   "blood",
@@ -744,35 +745,35 @@ int movement_loss[] =
 
 /* Not used in sprinttype(). */
 const char *weekdays[] = {
-  "the Day of the Moon",
-  "the Day of the Bull",
-  "the Day of the Deception",
-  "the Day of Thunder",
-  "the Day of Freedom",
-  "the Day of the Great Gods",
-  "the Day of the Sun"
+  "El día de la Luna",
+  "El día de el Toro",
+  "El día de la Decepción",
+  "El día de el Trueno",
+  "El día de la Libertad",
+  "El día de los Grandes Dioses",
+  "El día de el Sol"
 };
 
 
 /* Not used in sprinttype(). */
 const char *month_name[] = {
-  "Month of Winter",		/* 0 */
-  "Month of the Winter Wolf",
-  "Month of the Frost Giant",
-  "Month of the Old Forces",
-  "Month of the Grand Struggle",
-  "Month of the Spring",
-  "Month of Nature",
-  "Month of Futility",
-  "Month of the Dragon",
-  "Month of the Sun",
-  "Month of the Heat",
-  "Month of the Battle",
-  "Month of the Dark Shades",
-  "Month of the Shadows",
-  "Month of the Long Shadows",
-  "Month of the Ancient Darkness",
-  "Month of the Great Evil"
+  "Mes del Invierno",		/* 0 */
+  "Mes del Lobo Invernal",
+  "Mes del Gigante Congelado",
+  "Mes de las Fuerzas Ancestrales",
+  "Mes del Gran Cataclismo",
+  "Mes de la Primavera",
+  "Mes de la Naturaleza",
+  "Mes de la Futilidad",
+  "Mes del Dragon",
+  "Mes del Sol",
+  "Mes del Calor",
+  "Mes de la Batalla",
+  "Mes de las Sombras Obscuras",
+  "Mes de las Sombras",
+  "Mes de las Largas Sombra",
+  "Mes de la Antigua Obscuridad",
+  "Mes del Gran Mal"
 };
 
 

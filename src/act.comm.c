@@ -43,7 +43,7 @@ ACMD(do_say)
   skip_spaces(&argument);
 
   if (!*argument)
-    send_to_char(ch, "Yes, but WHAT do you want to say?\r\n");
+    send_to_char(ch, "Sí, pero que diablos quieres decir ?\r\n");
   else {
     char buf[MAX_INPUT_LENGTH + 12];
 
