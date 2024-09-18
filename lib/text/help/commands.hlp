@@ -1,129 +1,123 @@
 ! ^
 
-Use ! to repeat the last command typed at the keyboard.
+Use ! para repetir el último comando escrito en el teclado.
 
-Use ^ to replace a string from the last command with a new string.  The
-syntax is the same as in csh: "^old-string^replacement"
+Usa ^ para reemplazar una cadena del último comando con una nueva cadena. La
+sintaxis es la misma que en csh: "^cadena-antigua^reemplazo"
 
-Examples:
+Ejemplos:
 
-  > tell rasmusse Hi there, how are you?
-  No-one by that name here.
+  > tell rasmusse Hola, ¿cómo estás?
+  Nadie con ese nombre aquí.
 
   > ^rasmusse^rasmussen
-  You tell Rasmussen, 'Hi there, how are you?'
+  Le dices a Rasmussen, 'Hola, ¿cómo estás?'
 
-  > ^you^you doing^
-  You tell Rasmussen, 'Hi there, how are you doing?'
+  > ^you^qué tal^
+  Le dices a Rasmussen, 'Hola, ¿qué tal estás?'
 
-See also: ALIAS
+Consulta también: ALIAS
 #
 ALIAS ALIASES
 
-Usage: alias [alias name] [command]
+Uso: alias [nombre del alias] [comando]
 
-An alias is a single command used to represent one or more other commands.
-The ALIAS command can be used to manipulate your character's aliases.  Type
-ALIAS alone to see a list of your currently defined aliases.
+Un alias es un único comando que se utiliza para representar uno o más comandos. 
+El comando ALIAS puede utilizarse para manipular los alias de tu personaje. 
+Escribe ALIAS solo para ver una lista de los alias que tienes actualmente definidos.
 
   > alias
 
-Type ALIAS <alias name> <command> to create a new alias.  The alias name must
-be one word.  The command can be any string.  Aliases may not be nested or
-used recursively.  Any command may be overridden by an alias (other than the
-ALIAS command itself, of course).
+Escribe ALIAS <nombre del alias> <comando> para crear un nuevo alias. 
+El nombre del alias debe ser una sola palabra. El comando puede ser cualquier cadena de texto. 
+Los alias no pueden ser anidados ni usados recursivamente. Cualquier comando puede ser sobrescrito 
+por un alias (excepto el propio comando ALIAS, por supuesto).
 
   > alias gbb get bread bag
   > alias gac get all corpse
 
-Type ALIAS <alias-name> to delete an alias that has already been defined.
+Escribe ALIAS <nombre-del-alias> para eliminar un alias que ya ha sido definido.
 
   > alias gbb
 
-A semicolon (";") can be used to define multiple actions to be taken with
-a single alias.
+Un punto y coma (";") puede usarse para definir múltiples acciones a realizar 
+con un solo alias.
 
   > alias eat get bread bag; eat bread
 
-Note that the 'eat' contained within the eat alias is interpreted as the MUD's
-internal eat command; aliases may not be nested or used recursively.  The
-variables $1, $2, ... $9 may be used to represent arguments given with
-an alias.
+Ten en cuenta que el 'eat' dentro del alias 'eat' se interpreta como el comando interno 
+del MUD para comer; los alias no pueden ser anidados ni usados recursivamente. 
+Las variables $1, $2, ... $9 pueden usarse para representar los argumentos dados con un alias.
 
-Examples:
+Ejemplos:
 
   > alias killem cast 'fireball' $1; cast 'harm' $2
   > killem fido mage
 
-Would cast fireball on fido, followed by casting harm on mage.  Variables
-may be used repeatedly and in any order:
+Esto lanzaría "fireball" en fido, seguido de "harm" en mage. 
+Las variables pueden usarse repetidamente y en cualquier orden:
 
   > alias helpem cast 'heal' $1; cast 'bless' $1; cast 'armor' $1
 
-The special variable $* represents the entire input line after an alias:
+La variable especial $* representa toda la línea de entrada después de un alias:
 
   > alias tr tell rasmussen $*
-  > tr hi there, how are you today?
-  You tell Rasmussen, 'hi there, how are you today?'
+  > tr hola, ¿cómo estás hoy?
+  Le dices a Rasmussen, 'hola, ¿cómo estás hoy?'
 
-See also: ! ^
+Consulta también: ! ^
 #
 ANSI COLOR
 
-Usage: color [off | sparse | normal | complete]
+Uso: color [off | sparse | normal | complete]
 
-If you have a color-capable terminal and wish to see useful color-coding
-of information, use the COLOR command to set the level of coloring you see.
+Si tienes un terminal compatible con colores y deseas ver información codificada
+con colores útiles, usa el comando COLOR para ajustar el nivel de color que ves.
 
   > color off
-  This command disables all color.
+  Este comando desactiva todos los colores.
 
   > color sparse
   > color normal
   > color complete
 
-These three commands turn color on to various levels.  Experiment to see
-which level suits your personal taste.
+Estos tres comandos activan el color en varios niveles. Experimenta para ver
+qué nivel se ajusta a tu gusto personal.
 
-'color' with no argument will display your current color level.
+'color' sin argumentos mostrará tu nivel de color actual.
 
-Using color will slow down the speed at which you see messages VERY slightly.
-The effect is more noticeable on slower connections.  Even if you have
-color turned on, non-colorized messages will not be slowed down at all.
+Usar color ralentizará MUY ligeramente la velocidad a la que ves los mensajes.
+El efecto es más notable en conexiones lentas. Incluso si tienes el color activado, 
+los mensajes no coloreados no se verán afectados en absoluto.
 
-See also: COLORSPRAY, "COLOR SPRAY"
+Consulta también: COLORSPRAY, "COLOR SPRAY"
 #
 ASSIST
 
-Usage: ASSIST <person in need>
+Uso: ASSIST <persona necesitada>
 
-If Quifael is being beaten senseless by a warg and you feel brave enough
-to help him, type ASSIST QUIFAEL to hit the warg.  Note that the warg will
-keep hitting Quifael; assist only makes you start to fight whomever the
-person you're assisting is fighting.
+Si Quifael está siendo golpeado brutalmente por un warg y te sientes lo suficientemente valiente para ayudarlo, escribe ASSIST QUIFAEL para atacar al warg. Ten en cuenta que el warg seguirá golpeando a Quifael; asistir solo hace que empieces a luchar contra quien la persona a la que asistes esté enfrentando.
 
-  > assist Doctor
+assist Doctor
 
-See also: FLEE, KILL, RESCUE
+Consulta también: FLEE, KILL, RESCUE
 #
 AUCTION GOSSIP GRATS NOAUCTION NOGOSSIP NOGRATS
 
-Usage: auction <message>
-       gossip <message>
-       grats <message>
+ Uso: auction <mensaje>
+      gossip <mensaje>
+      grats <mensaje>
 
-These are channels reserved for specific purposes.  Messages on these
-channels reach everyone who is monitoring them.  You must be at least level
-three to use these channels.
+Estos son canales reservados para propósitos específicos. Los mensajes en estos canales llegan a todos los que los están monitoreando. Debes tener al menos nivel tres para usar estos canales. (Estos comandos cambiar/o|á/n pronto en su versión latina)
 
-Examples:
+Ejemplos:
 
-  > auction short sword -- minimum bid 100k
-  > gossip Hey, is that a short sword on your belt or are you happy to see me?
-  > grats LEVEL!!!!!!!!
-  > grats GRATS CATJE!!!!!!!!
+  > auction espada corta -- oferta mínima 100k 
+  > gossip Oye, ¿es esa una espada corta en tu cinturón o estás feliz de verme? 
+  > grats ¡¡¡¡¡¡¡NIVEL!!!!!!! 
+  > grats ¡¡¡FELICIDADES CATJE!!!!!!!
 
-See also: EMOTE, GSAY, HOLLER, NOREPEAT, SAY, SHOUT
+Consulta también: EMOTE, GSAY, HOLLER, NOREPEAT, SAY, SHOUT
 #
 AUTOEXIT
 
