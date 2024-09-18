@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Movimiento:                                | Comunicación:
+NORTE SUR ESTE OESTE ARRIBA ABAJO          | DECIR GSAY CALLAR GRITAR CONTAR PREGUNTAR SUSURRAR
+MIRAR SALIDAS ENTRAR SALIR                 | CORREO RECIBIR REVISAR CHIMEAR GRATS ACCION
+DORMIR DESPERTAR DESCANSAR SENTAR PARAR    | NOCONTAR NOCALLAR NOGOSSIP NOGRATS NOACCION
+(BLOQUEAR DESBLOQUEAR ABRIR CERRAR)        |
+-------------------------------------------------------------------------------
+Objetis:                                   | Información: 
+TOMAR SOLTAR BASURA DONAR PONER DAR VESTIR | SCORE AYUDA INFO QUIEN NOTICIAS TIEMPO CLIMA
+AGARRAR INVENTARIO EQUIPAR REMOVER         | DONDE CONSIDERAR NIVELES WIZLIST IMMLIST
+EXAMINAR COMER BEBER PROBAR SORBER VERTIR  | CREDITOS ALTERNAR FLAGS WIZHELP
+-------------------------------------------------------------------------------
+Combate:                                   | Utilidad:
+MATAR BLANDIR HUIR ASISTIR RASTREAR        | ! BUG IDEA TYPO QUITAR SALVAR SUMARIO COMPACTAR
+(PATEAR INTENTAR RESCATAR BACKSTAB CAST)   | TITULO NOINVOCAR COMANDOS SOCIALS DISPLAY
+-------------------------------------------------------------------------------
+Mayor información disponible tecleando AYUDA <palabra>, la palabra puede ser un comando 
+o (por ejemplo) alguno de los siguientes:
+
+   SOCIAL TIENDAS INNS CLERIGO GUERRERO LADRON MAGIA HECHIZO AMARRE
+-------------------------------------------------------------------------------
