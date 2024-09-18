@@ -192,3 +192,102 @@ Sep 17 18:40:46 :: No connections.  Going to sleep.
 Sep 17 18:40:48 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
 Quick boot mode -- rent check supressed.
 Using file descriptor for logging.
+autorun starting game mar 17 sep 2024 19:28:14 CST
+running bin/circle -q 4000
+Sep 17 19:28:14 :: CircleMUD, version 3.1
+Sep 17 19:28:14 :: Using lib as data directory.
+Sep 17 19:28:14 :: Running game on port 4000.
+Sep 17 19:28:14 :: Finding player limit.
+Sep 17 19:28:14 ::    Setting player limit to 300 using rlimit.
+Sep 17 19:28:14 :: Opening mother connection.
+Sep 17 19:28:14 :: Binding to all IP interfaces on this host.
+Sep 17 19:28:14 :: Boot db -- BEGIN.
+Sep 17 19:28:14 :: Resetting the game time:
+Sep 17 19:28:14 ::    Current Gametime: 11H 30D 15M 1004Y.
+Sep 17 19:28:14 :: Reading news, credits, help, bground, info & motds.
+Sep 17 19:28:14 :: Loading spell definitions.
+Sep 17 19:28:14 :: Loading zone table.
+Sep 17 19:28:14 ::    3 zones, 120 bytes.
+Sep 17 19:28:14 :: Loading rooms.
+Sep 17 19:28:14 ::    62 rooms, 6944 bytes.
+Sep 17 19:28:14 :: Renumbering rooms.
+Sep 17 19:28:14 :: Checking start rooms.
+Sep 17 19:28:14 :: SYSERR:  Warning: Immort start room does not exist.  Change in config.c.
+Sep 17 19:28:14 :: SYSERR:  Warning: Frozen start room does not exist.  Change in config.c.
+Sep 17 19:28:14 :: Loading mobs and generating index.
+Sep 17 19:28:14 ::    569 mobs, 9104 bytes in index, 268568 bytes in prototypes.
+Sep 17 19:28:14 :: Loading objs and generating index.
+Sep 17 19:28:14 ::    679 objs, 10864 bytes in index, 119504 bytes in prototypes.
+Sep 17 19:28:14 :: Renumbering zone table.
+Sep 17 19:28:14 :: SYSERR: zone file: Invalid vnum 1, cmd disabled
+Sep 17 19:28:14 :: SYSERR: ...offending cmd: 'M' cmd in zone #107, line 6
+Sep 17 19:28:14 :: SYSERR: zone file: Invalid vnum 1, cmd disabled
+Sep 17 19:28:14 :: SYSERR: ...offending cmd: 'M' cmd in zone #200, line 6
+Sep 17 19:28:14 :: Loading shops.
+Sep 17 19:28:14 :: Loading help entries.
+Sep 17 19:28:14 ::    298 entries, 7152 bytes.
+Sep 17 19:28:14 :: Generating player index.
+Sep 17 19:28:14 ::    4 players in database.
+Sep 17 19:28:14 :: Loading fight messages.
+Sep 17 19:28:14 :: Loading social messages.
+Sep 17 19:28:14 :: SYSERR: Unknown social 'accuse' in social file.
+Sep 17 19:28:14 :: SYSERR: Unknown social 'cry' in social file.
+Sep 17 19:28:14 :: SYSERR: Unknown social 'dance' in social file.
+Sep 17 19:28:14 :: SYSERR: Unknown social 'kiss' in social file.
+Sep 17 19:28:14 :: SYSERR: Unknown social 'massage' in social file.
+Sep 17 19:28:14 :: SYSERR: Unknown social 'smile' in social file.
+Sep 17 19:28:14 :: SYSERR: Unknown social 'squeeze' in social file.
+Sep 17 19:28:14 :: Assigning function pointers:
+Sep 17 19:28:14 ::    Mobiles.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 :: SYSERR: assign_kings_castle(): can't find mob #-1.
+Sep 17 19:28:14 ::    Shopkeepers.
+Sep 17 19:28:14 ::    Objects.
+Sep 17 19:28:14 ::    Rooms.
+Sep 17 19:28:14 :: Assigning spell and skill levels.
+Sep 17 19:28:14 :: Sorting command list and spells.
+Sep 17 19:28:14 :: Booting mail system.
+Sep 17 19:28:14 ::    0 bytes read.
+Sep 17 19:28:14 ::    Mail file read -- 0 messages.
+Sep 17 19:28:14 :: Reading banned site and invalid-name list.
+Sep 17 19:28:14 ::    Ban file 'etc/badsites' doesn't exist.
+Sep 17 19:28:14 :: Booting houses.
+Sep 17 19:28:14 :: Resetting #30: Northern Midgaard Main City (rooms 3000-3099).
+Sep 17 19:28:14 :: Resetting #107: Limbo - Internal (rooms 10700-10799).
+Sep 17 19:28:14 :: Resetting #200: Mortales - Inferi (rooms 20000-20099).
+Sep 17 19:28:14 :: Boot db -- DONE.
+Sep 17 19:28:14 :: Signal trapping.
+Sep 17 19:28:14 :: Entering game loop.
+Sep 17 19:28:14 :: No connections.  Going to sleep.
+Sep 17 19:28:20 :: New connection.  Waking up.
+Sep 17 19:28:23 :: Sir [localhost] has connected.
+Sep 17 19:28:25 :: Losing player: Sir.
+Sep 17 19:28:25 :: No connections.  Going to sleep.
+Sep 17 19:28:26 :: New connection.  Waking up.
+Sep 17 19:28:30 :: Sir [localhost] has connected.
+Sep 17 19:28:32 :: Sir un-renting and entering game.
+Sep 17 19:28:32 :: Sir (level 34) has 0 objects (max 30).
+Sep 17 19:30:04 :: Sir has quit the game.
+Sep 17 19:30:06 :: Losing player: Sir.
+Sep 17 19:30:06 :: No connections.  Going to sleep.

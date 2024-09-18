@@ -504,7 +504,7 @@ ACMD(do_drop)
     mode = SCMD_JUNK;
     break;
   case SCMD_DONATE:
-    sname = "donate";
+    sname = "donar";
     mode = SCMD_DONATE;
     switch (rand_number(0, 2)) {
     case 0:
@@ -524,7 +524,7 @@ ACMD(do_drop)
     }
     break;
   default:
-    sname = "drop";
+    sname = "soltar";
     break;
   }
 
@@ -536,7 +536,7 @@ ACMD(do_drop)
   } else if (is_number(arg)) {
     multi = atoi(arg);
     one_argument(argument, arg);
-    if (!str_cmp("coins", arg) || !str_cmp("coin", arg))
+    if (!str_cmp("moneditas", arg) || !str_cmp("coin", arg))
       perform_drop_gold(ch, multi, mode, RDR);
     else if (multi <= 0)
       send_to_char(ch, "Yeah, that makes sense.\r\n");
