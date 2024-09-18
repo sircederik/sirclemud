@@ -1,0 +1,37 @@
+#0
+El Vacío~
+   No crees que no estás flotando en la nada. Puedes ver
+un portal extraño ubicado sobre ti.
+~
+0 d 1
+D4
+El Templo de Midgaard flota sobre ti.
+~
+~
+0 -1 3001
+S
+#1
+Limbo~
+   Estás flotando en un vacío sin forma, desprendido de toda sensación de materia física,
+rodeado de luces brillantes que se desvanecen en la relativa oscuridad a tu alrededor sin
+dejar rastro de bordes o sombras.
+   Hay un aviso de "No Propinas" clavado en la oscuridad.
+~
+0 d 1
+S
+#3
+A Totally Empty Room~
+   The walls are completely bare... nothing at all in the room.
+How... utterly bizarre and completely weird.  There is a strange
+portal just above you, and it almost looks as if there is some
+sort of room above you.
+~
+1 dj 0
+D4
+You notice that the portal above you looks almost like glass,
+albeit very dirty glass.
+~
+~
+0 -1 3048
+S
+$

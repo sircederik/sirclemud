@@ -1,37 +1,28 @@
-#0
+#20001
 El Vacío~
    No crees que no estás flotando en la nada. Puedes ver
 un portal extraño ubicado sobre ti.
 ~
-0 d 1
+200 d 1
 D4
 El Templo de Midgaard flota sobre ti.
 ~
 ~
 0 -1 3001
 S
-#1
+#20002
 Limbo~
    Estás flotando en un vacío sin forma, desprendido de toda sensación de materia física,
 rodeado de luces brillantes que se desvanecen en la relativa oscuridad a tu alrededor sin
 dejar rastro de bordes o sombras.
    Hay un aviso de "No Propinas" clavado en la oscuridad.
 ~
-0 d 1
-S
-#3
-Una Habitación Totalmente Vacía~
-   Las paredes están completamente desnudas... nada en absoluto en la habitación.
-Qué... absolutamente extraño y completamente raro. Hay un portal extraño justo sobre ti, y casi parece que hay algún
-tipo de habitación sobre ti.
-~
-1 dj 0
-D4
-Notas que el portal sobre ti parece casi de vidrio,
-aunque un vidrio muy sucio.
+200 d 1
+D0
+Parece que hay una leve esperanza al norte
 ~
 ~
-0 -1 3048
+0 -1 3002
 S
 $
 
